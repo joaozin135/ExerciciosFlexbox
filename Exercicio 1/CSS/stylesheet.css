@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.MyClass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #555;
+    width: 100%;
+    flex-direction: row;
+    color: #fff;
+    padding: 15px; 
+}
+
+.MyLogo{
+    align-items: flex-start;
+      
+}
+
+.Menu{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    align-items: center;
+}
+
+.Login{
+    justify-content: flex-end;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+}
