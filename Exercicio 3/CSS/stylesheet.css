@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+    gap: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.inputs input{
+    width: 100%;
+}
+
+.Mensagem {
+    width: 100%;
+    min-height: 150px;
+}
+
+.Enviar{
+    background-color: rgb(1, 73, 73);
+    color: #fff;
+    padding: 2vh;
+    align-self: flex-end;
+}
